@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sep-2022, 5:37:47 am
+    Author     : Pushpa
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20-Jun-2022, 6:36:59 pm
+    Author     : Pushpa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+:root{
+    --background:#ffffff;
+    --lightOrange: #efefd0;
+    --darkOrange:#ffbe93;
+    
+    --darkerOrange:#a76b44;
+}
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: var(--background);
+}
+header{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--darkerOrange);
+    text-decoration:none;
+}
+.menu li{
+ display:inline-block;  
+ list-style: none;
+ padding:1px 50px 1px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+     font-size:17px;
+     font-family: 'Roboto Slab', serif;
+}

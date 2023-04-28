@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sep-2022, 5:48:19 am
+    Author     : Pushpa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #ffffff;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.card{
+    width:400px;
+    height:500px;
+    position:absolute;
+    background-color:#efefd0;
+    top:55%;left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 2px 8px;
+    padding:15px;
+}
+.content{
+    height:auto;
+    position:absolute;
+    
+}
+.head{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
+.callno{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:60px;
+}
+.txt{
+     border-bottom-style: solid;
+     color:#e90000 !important;
+     border-top:none;
+     border-right: none;
+     border-left:none;
+     font-size:20px;
+     width:350px;
+     background-color: transparent;
+     
+}
+.txt:focus{
+    outline:none !important;
+}
+
+.name{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:120px;
+}
+.author{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:180px;
+}
+.publisher{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:240px;
+}
+.quantity{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:300px;
+}
+.Stream{
+    font-family:'Roboto Slab', serif;
+    display:inline-block;
+    position:absolute;
+    top:360px;
+}
+.btn{
+    font-family:'Roboto Slab', serif;
+    border: none;
+    position:absolute;
+    top:420px;
+    padding:12px;
+    width:125px;
+    color:#bb0000 !important;
+    background-color: #ffbe93 !important;
+    font-size:18px !important;
+}
+.btn:focus{
+    outline:none !important;
+}
+.errmssg{
+    position:absolute;
+    top:460px;
+    left:5px;
+    width:500px;
+    color:red;
+}
+.svgImg{
+    position: absolute;
+    width:450px;
+    bottom:0px;
+    left:10px;
+}

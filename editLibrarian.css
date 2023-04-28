@@ -1,0 +1,170 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16-Aug-2022, 10:28:02 pm
+    Author     : Pushpa
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #ffffff;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.card{
+    width:400px;
+    height:500px;
+    position:absolute;
+    background-color:#efefd0;
+    top:55%;left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 2px 8px;
+    padding:15px;
+}
+img{
+    position: absolute;
+    width:350px;
+    bottom:28px;
+    left:23px;
+}
+
+.content{
+    height:auto;
+    position:absolute;
+    
+}
+.head{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
+.email{
+    font-family:'Roboto Slab', serif;
+    
+    position:absolute;
+    top:180px;
+}
+.emailText:focus{
+    outline:none !important;
+}
+label{
+    font-size: 13px;
+}
+.password{
+    font-family:'Roboto Slab', serif;
+    position:absolute;
+    top:250px;
+}
+.btn{
+    font-family:'Roboto Slab', serif;
+    border: none;
+    position:absolute;
+    top:430px;
+    padding:12px;
+    width:125px;
+    color:#bb0000 !important;
+    background-color: #ffbe93 !important;
+    font-size:18px !important;
+}
+.btn:focus{
+    outline:none !important;
+}
+.emailText{
+     border-bottom-style: solid;
+     color:#e90000 !important;
+     border-top:none;
+     border-right: none;
+     border-left:none;
+     font-size:20px;
+     width:300px;
+     background-color: transparent;
+}
+.passText{
+     border-bottom-style: solid;
+     border-right: none;
+     border-left:none;
+     border-top: none;
+     background-color: transparent;
+     color:#e90000  !important;
+     font-size:20px;
+     width:300px;
+}
+.passText:focus{
+    outline: none !important;
+}
+.home{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.hometxt{
+    font-family:'Roboto Slab', serif;
+    font-size:18px;
+    position: absolute;
+    top:10px;
+    left:39px;
+}
+.errmssg{
+    position:absolute;
+    top:460px;
+    left:5px;
+    width:500px;
+    color:red;
+}
+.name{
+    font-family:'Roboto Slab', serif;
+     position:absolute;
+    top:110px;
+}
+.nameTxt:focus{
+     outline: none !important;
+}
+.nameTxt{
+     border-bottom-style: solid;
+     border-right: none;
+     border-left:none;
+     border-top: none;
+     background-color: transparent;
+     color:#e90000  !important;
+     font-size:20px;
+     width:300px;
+}
+.mobile{
+    font-family:'Roboto Slab', serif;
+ position:absolute;
+    top:320px;   
+}
+.mobtxt:focus{
+    outline: none ;
+}
+.mobtxt{
+    border-bottom-style: solid;
+     border-right: none;
+     border-left:none;
+     border-top: none;
+     background-color: transparent;
+     color:#e90000  !important;
+     font-size:20px;
+     width:300px;
+}
+.joiningDate{
+    font-family:'Roboto Slab', serif;
+    position:absolute;
+    top:387px;  
+    font-size: 13px;
+    display:block;
+    width:50%;
+}
+.resignDate{
+    font-family:'Roboto Slab', serif;
+    position:absolute;
+    top:387px;  
+    font-size: 13px;
+    left:130px;
+    width:50%;
+}
+

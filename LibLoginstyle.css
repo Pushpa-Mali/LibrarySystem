@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sep-2022, 5:26:08 am
+    Author     : Pushpa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+body{
+    background-color: #ffffff;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.card{
+    width:400px;
+    height:500px;
+    position:absolute;
+    background-color:#efefd0;
+    top:55%;left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 2px 8px;
+    padding:15px;
+}
+.content{
+    height:auto;
+    position:absolute;
+    
+}
+.head{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
+.email{
+    font-family:'Roboto Slab', serif;
+    position:absolute;
+    top:110px;
+}
+.emailText:focus{
+    outline:none !important;
+}
+label{
+    font-size: 16px;
+}
+.password{
+   font-family:'Roboto Slab', serif;
+    position:absolute;
+    top:200px;
+}
+.btn{
+    border: none;
+    position:absolute;
+    top:317px;
+    padding:12px;
+    width:125px;
+    color:#bb0000 !important;
+    background-color: #ffbe93 !important;
+    font-size:18px !important;
+}
+.btn:focus{
+    outline:none !important;
+}
+.emailText{
+     border-bottom-style: solid;
+     color:#e90000 !important;
+     border-top:none;
+     border-right: none;
+     border-left:none;
+     font-size:20px;
+     width:300px;
+     background-color: transparent;
+}
+.passText{
+     border-bottom-style: solid;
+     border-right: none;
+     border-left:none;
+     border-top: none;
+     background-color: transparent;
+     color:#e90000  !important;
+     font-size:20px;
+     width:300px;
+}
+.passText:focus{
+    outline: none !important;
+}
+.home{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.hometxt{
+    font-family:'Roboto Slab', serif;
+    font-size:18px;
+    position: absolute;
+    top:10px;
+    left:39px;
+}
+.svg1{
+    position: absolute;
+    width:450px;
+    bottom:0px;
+    left:10px;
+}
+.svg2{
+    position: absolute;
+    width:430px;
+    bottom:0px;
+    right:10px;
+}
+.errmssg{
+    position:absolute;
+    top:460px;
+    left:5px;
+    width:500px;
+    color:red;
+}
