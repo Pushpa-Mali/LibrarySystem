@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18-Jun-2022, 1:04:40 pm
+    Author     : Pushpa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: #80ffdb;*/
+   background-color: #efefd0;
+   overflow-x: hidden;
+   
+  
+}
+.svgImg{
+    position:absolute;
+    width:370px;
+    bottom: 0px;
+}
+#svgImg2{
+    position:absolute;
+    width:275px;
+    bottom: 0px;
+    right:0px;
+}
+#loginI{
+    position:absolute;
+    right:63px;
+    display:inline-block;
+    top:25px;
+}
+#Student{
+    position:absolute;
+    right:63px;
+    display:inline-block;
+    top:58px;
+}
+#logintext{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    display:inline-block;
+    color:#ca0000;
+}
+
+#loginIcon{
+    position: absolute;
+    right:153px;
+}
+#adminlogin{
+    position:absolute;
+    left:90px;
+    display:inline-block;
+    top:25px;
+}
+#adloginIcon{
+    position: absolute;
+    right:129px;
+}
+#logintext:hover {transform: scale(1.2);}
+.heading{
+     position:absolute;
+     top:135px;
+    left:250px;
+}
+.heading span{
+    color:#650000;
+/*    color:#d93030;*/
+    font-family: 'Maven Pro', sans-serif;
+    display: inline-block;
+    font-size:80px;
+    animation:bounceInLeft;
+    animation-duration:1.5s;
+}
+.about{
+    position: absolute;
+    font-size: 23px;
+/*    color:#e37738;*/
+    color:#d5936d;
+    top:298px;
+    left:400px;
+    animation:bounceInRight;
+    animation-duration:3s;
+}
+
+.midsvg{
+    position:absolute;
+    bottom:0px;
+    left:38%;
+    width:350px;
+}
